@@ -1,39 +1,41 @@
 import React from 'react'
-import Logofooter from "../../images/Logofooter.png"
+import Logofooter from "../../../images/Logofooter.png"
+import "./Footer.css"
+
+
 
 
 const Footer = () => {
   return (
-    <div className='footer-container  bg-sage'>
-        <div className='container-section-1 d-flex'>
-            <div>
+    <div className="footer_container">
+        <div className="container_section_1">
+            < div className='footer-logo-container'>
             <img src={Logofooter}/>
-            <div className='text-center mt-1'>
-                <span className='text-white'>&#169; 2025</span>
-            </div>
+            
         </div>
-        <div>
-            <h2>Opening hours</h2>
+        <div className='inner_container_section_1'>
+        <div className='footer-div'>
+            <h3>Opening hours</h3>
             <p>Mon - Sat 11am - 12pm</p>
             <p>Sun 11am - 11pm</p>
         </div>
         <div>
-            <h2>Address</h2>
+            <h3>Address</h3>
             <p>24 Brew Lane</p>
             <p>BR3 WL Cuptown</p>
         </div>
         <div>
-            <h2>Contact</h2>
+            <h3>Contact</h3>
             <p>+44 201 998 7562</p>
             <p>hello@yellowmountain.com</p>
              <div className='mt-2-5 text-center'><img src='/Social.png'/></div>
         </div>
         </div>
-        <div className='container-section-2 d-flex'>
-            
-           
         </div>
         
+        <div className='footer-text mt-1'>
+          <span className='text-white'>&#169; 2025</span>
+            </div>
     </div>
   )
 }

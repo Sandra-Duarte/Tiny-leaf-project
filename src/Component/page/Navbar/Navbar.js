@@ -1,14 +1,18 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import "../../../App.css"
+import "./Navbar.css"
 import logo from "../../../images/Ellipse 4.png"
+
 
 const Navbar = () => {
   return (
-<nav className='navbar bg-sage d-flex justify-space-between align-items-center'>
-  <div className='logo-container'>
-    <img src={logo}/>
-    <img src="/text.png" />
+<nav className="navbar">
+  <div className='logo-container d-flex'>
+    <div>
+    <img src={logo}/></div>
+    <div>
+   <h4>Tiny Leaf Tea house</h4>
+   </div>
   </div>
 <div>
 <Link to="/" className='nav-link'>Home</Link>

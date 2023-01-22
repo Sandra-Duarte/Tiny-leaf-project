@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Form.css"
 
 const Form = () => {
   return (
@@ -37,11 +38,14 @@ const Form = () => {
       <div className='my-1 text-sage'>
     <label className='d-block'>Comments/requests</label>
     <textarea className='form-input' rows={5}></textarea>
+    <input type="checkbox" id="checkBox" name="checkBox" value="Box"/>
+  <label for="checkBox"> By requesting this booking, I am accepting Tiny Leaf’s Terms and Conditions.</label>
       </div>
       {/* Reserve Button */}
       <div className='d-flex justify-content-center'>
       <button className='reserve-btn bg-sage text-white border-sage'>Reserve</button>
       </div>
+ 
     </div>
   )
 }

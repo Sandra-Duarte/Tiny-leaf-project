@@ -1,13 +1,12 @@
 import React from 'react'
-import Hero from "../../../images/Hero.png"
 import Aniketh from "../../../images/Aniketh.png"
 import Klara from "../../../images/Klara.png"
 import Debby from "../../../images/Debby.png"
-import Background from "../../../images/Background.png"
 import Tea from "../../../images/Tea.png"
 import Bar from "../../../images/Bar.png"
 import Noah from "../../../images/Noah.png"
 import Millan from "../../../images/Millas.png"
+import "./Home.css"
 
 const Home = () => {
   return (
@@ -32,25 +31,32 @@ const Home = () => {
           <img src={Aniketh}/>
         </div>
       </div>
-      <div className='wise-leaf-container bg-sage'>
-        <div className='container-klara'>
-            <img src={Klara} className="wise-left-img"/>
-        </div>
-          <div className='wise-leaf-right-section'>
+   
+       
+        <section className='grid-container mx-4 my-4 '>
+          <div className='wise-leaf-right-section'></div>
+          <div className='text-box'>
           <h2> Wise Leaf evenings</h2>
           <p>Bringing together those with curious minds, speakers and observers alike, our Wise Leaf events are a melting pot to share, reflect and contemplate.</p>
+          </div>
           <div className='container-debby'>
             <img src={Debby} className="debby-img"/>
           </div>
-          </div>
-            </div>
+          <div className='container-klara'>
+            <img src={Klara} className="wise-left-img"/>
+        </div>
+         
+   
+          </section>
+
+           
       <div className='background-img '>
         {/*<img  className='img-background hero-img' src={Background}/>*/}
         <div className='d-grid'>
         <h2 className='my-2'>Make a reservation</h2>
         <p className='mx-2'>For anything from a catchup with a long lost friend to a book club gathering ... we're always ready to put the kettle on.</p>
         
-  <button className=' my-2 bg-white text-sage border-sage'>Reserve a table</button>
+  <button className=' my-2 bg-white text-sage border-sage button'>Reserve a table</button>
 
         
         </div>

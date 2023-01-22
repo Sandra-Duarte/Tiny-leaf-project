@@ -1,0 +1,38 @@
+/* -----------Forms---------- */
+.Form-grid-container{
+ background-color: bisque;
+  }
+  
+.form-input {
+    padding: 6px 12px;
+    width: 100%;
+    margin-top: 5px;
+  }
+  
+/* --------Reservation Page Form Styling -----*/
+.reservation-form-container {
+    max-width: 900px;
+    margin: 0 auto;
+   
+  }
+  
+  .reserve-btn {
+    padding: 1rem 3rem;
+  }
+  .reservation-form-container h1{
+    font-family: 'Cormorant', serif;
+    font-size: 3rem;
+    margin-bottom:1rem;
+  }
+  .reservation-form-container p{
+    font-family:Roboto;
+    font-size: 1.2rem; 
+  }
+
+ .Form-logo img{
+ object-position: right;
+ 
+  
+
+ } 
+  
