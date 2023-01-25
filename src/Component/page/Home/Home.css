@@ -71,9 +71,9 @@
  }
 
 .section-column1 p{
-  font-family: 'Roboto', sans-serif;
+ font-family: 'Roboto', sans-serif;
  font-size: 2rem;
-  color: var(--almostBlack);
+ color: var(--almostBlack);
 }
 
 /*--------------Grid-container---------*/
@@ -153,6 +153,10 @@ font-size: 4rem;
   font-size: 1.6rem;
   font-family: Roboto;
 }
+.background-img{
+  justify-content: center;
+  text-align: center;
+}
 
 
 /* -----------Portfolio Container ------ */
@@ -178,7 +182,10 @@ font-size: 4rem;
   }
 
   .section-column1 p {
-font-size: 1.2rem;
+font-size: 1rem;
+  }
+  .text-biscuit{
+    font-size: 3rem;
   }
   
 .grid-container{
@@ -204,7 +211,7 @@ font-size: 1.2rem;
   
 }
 .text-box h2{
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin-top: 2rem;
 }
 
@@ -220,6 +227,7 @@ font-size: 1.2rem;
 
 .background-img button {
   width: 140px;
+  text-align: center;
 }
 .grid-container{
   display: grid;
@@ -231,5 +239,69 @@ font-size: 2rem;
 }
 }
 
+/* Media Queries for mobile  */
+@media only screen and (max-width: 768px) {
+  
+h1 {
+  font-size: 54px;
+}
+h2, .background-img h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 50px;
+}
+h5 {
+  font-size: 24px;
+}
+h6 {
+   font-size: 20px;
+}
+.background-img {
+  background-position: 20% 0%;
+  height: 70vh;
+}
+.background-img p {
+  font-size: 1rem;
+}
+
+  .hero-img-container {
+  background-position: center;
+  height: 80vh;
+ 
+ }
+ .section-container {
+  /* display: block; */
+
+  margin: 3rem 3rem;
+  /* text-align: center; */
+ }
+ .blends-description {
+  margin-right: 0;
+ }
+ .hero-img-container h1{
+  font-size: 2.5rem;
+ }
+.section-column1 h2{
+font-size: 2rem;
+
+}
+.section-column1 p{
+  font-size: 1rem;
+}
+
+.background-img div{ 
+  width: 90%;
+}
+
+.background-img button {
+  margin-left: 0;
+  margin-right: 0;
+}
+}
 
 

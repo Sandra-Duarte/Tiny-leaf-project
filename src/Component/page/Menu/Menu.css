@@ -1,4 +1,12 @@
-
+:root{
+  --white:#FFFFFF;
+  --sage:#86907D;
+  --almostBlack:#0f0f0f;
+  --GREYDARK:#525252;
+  --GREYMEDIUM:#E0E0E0;
+  --LIBRARYGREEN:#5A684C;
+  --BISCUIT:#F0D989;
+ }
 /* -------- meno style----------------*/
 
 .hero-menu-container {
@@ -90,6 +98,7 @@
     left: 7%;
     background-color:var(--white);
     padding: 0 1rem;
+    color:var(--LIBRARYGREEN);
   
   }
   .special-container h4 {
@@ -113,6 +122,9 @@
     .hero-menu-container {
     height: 50vh;  
     background-position: center;  
+    }
+    .hero-menu-container {
+      font-size: 3.5rem;
     }
     .menu-text-container h2{
         font-size: 3.5rem;   

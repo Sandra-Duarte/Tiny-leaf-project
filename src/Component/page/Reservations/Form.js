@@ -1,14 +1,22 @@
 import React from 'react'
+import Formp from "../../../images/Formp.png"
 import "./Form.css"
+import Formpp from "../../../images/Formpp.png"
+
 
 const Form = () => {
   return (
+    <div className='Form-grid-container'>
+      <div className='logo-form'>
+       <img src={Formp}/>
+      </div>
     <div className='reservation-form-container'>
       <div className='mb-1'>
         <h1>Reserve a table</h1>
           <p>We take bookings for groups to 6. We get busy on weekends so best to book early to avoid disappointment!</p>
       </div>
       {/* First Row */}
+
       <div className='d-grid three-col-grid my-1 grid-gap-1 text-sage '>
       <div>
         <label className='d-block text-sage '>Date</label>
@@ -46,6 +54,11 @@ const Form = () => {
       <button className='reserve-btn bg-sage text-white border-sage'>Reserve</button>
       </div>
  
+    </div>
+    <div className='Form-logo'>
+<img src={Formpp}/>
+      </div>
+    
     </div>
   )
 }

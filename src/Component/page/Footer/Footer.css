@@ -45,6 +45,7 @@
    }
 
    @media(min-width: 768px) and (max-width: 992px){
+    
     .inner_container_section_1{
         justify-content:space-evenly;
         margin-right: 1rem;
@@ -55,9 +56,28 @@
 .footer-logo-container{
    margin-bottom: 2rem;
    margin-left: 2rem;
+   padding: 2rem;
 }
 .footer-text{
-    margin-left:5rem;  
+    margin-left:rem;  
 }
 
+   }
+
+   @media (max-width: 767px){
+    .container_section_1, .inner_container_section_1 {
+display: block;
+}
+
+.footer-logo-container {
+    margin: 1rem 0;
+}
+
+.container_section_1 {
+    padding: 2rem;
+}
+
+.inner_container_section_1 > div {
+    margin: 1rem 0;
+}
    }

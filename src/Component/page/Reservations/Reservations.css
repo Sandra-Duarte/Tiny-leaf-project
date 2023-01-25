@@ -53,8 +53,31 @@
       background-position: center;
       height: 40vh;
      }
+
     .Hero-reservations-container h1{
-font-size: 4rem;
+font-size: 6rem;
      }
+     .Tea-cup-container{
+      background-position: center;
+      height: 50vh;
+     
+     }
+     .tea-cup-container-content{
+      top: 50%;
+      padding: 5rem;
+     }
+     .tea-cup-container-content h1{
+      font-size: 5rem;
+     }
+     .tea-cup-container-content p{
+      font-size: 1.8rem;
+      justify-content: center;
+      margin-bottom: 2rem;
+     }
+     .tea-cup-container-content button{
+      width:170px;
+      margin-top: 1rem;
+     }
+
 
     }

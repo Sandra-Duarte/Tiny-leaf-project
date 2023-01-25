@@ -20,7 +20,7 @@ const Home = () => {
         <div className='section-column1'>
         <div >
           <h2 >Our Blends</h2>
-          <p className='mr-2'>We make our very own Tiny Leaf Blends right here in the tea house, offering new flavours according to and make sure the hands that laboured for our flavoursome cups werw rewarded fairly</p> </div>
+          <p className='mr-2 blends-description'>We make our very own Tiny Leaf Blends right here in the tea house, offering new flavours according to and make sure the hands that laboured for our flavoursome cups werw rewarded fairly</p> </div>
           <div className='biscuit-horizontal-line my-4'>
           </div>
           <div>
@@ -52,7 +52,7 @@ const Home = () => {
            
       <div className='background-img '>
         {/*<img  className='img-background hero-img' src={Background}/>*/}
-        <div className='d-grid'>
+        <div className='absolute-container'>
         <h2 className='my-2'>Make a reservation</h2>
         <p className='mx-2'>For anything from a catchup with a long lost friend to a book club gathering ... we're always ready to put the kettle on.</p>
         
