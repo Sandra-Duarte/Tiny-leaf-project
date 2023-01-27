@@ -11,7 +11,7 @@ const Meno = () => {
         <h1>Menu</h1>
        </div>
        <div>
-        <div className='menu-text-container mx-4 my-4'>
+        <div className='menu-text-container'>
           <h2>Loose leaf teas</h2>
           <h4>Darjeeling</h4>
           <div className='menu-price'>
@@ -22,7 +22,7 @@ const Meno = () => {
           <h4>Blue Earl Grey</h4>
           <div className='menu-price'>
           <p> A delicate blend of blueberry and sunflower petals petals with Earl Grey aromas </p>
-          <p>£4.50</p>
+          <p >£4.50</p>
           </div>
           <h4>Organic Mango and Papaya</h4>
           <div className='menu-price'>
@@ -45,14 +45,14 @@ const Meno = () => {
           <p>£5.50</p>
           </div>
         </div>
-        <div className='special-outer-container mx-4'>
+        <div className='special-outer-container '>
         <div className='special-container border-biscuit '>
         <h1>Special this week...</h1>
         <div className='my-4 mx-2'>
         <h4>Sticky Almond</h4>
        <div className="menu-price">
         <p>Organic Sencha Green tea from China, mixed with apple, cinnamon, ginger and vanilla</p>
-        <p>£5.50</p>
+        <p className='preco'>£5.50</p>
           </div>
         
         <h4>Green Sun</h4>

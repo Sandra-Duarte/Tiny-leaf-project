@@ -66,4 +66,10 @@
     margin-top: 700px;
   }
  }
+      /* Media Queries for mobile  */
+      @media only screen and (max-width: 768px) {
+        .Form-grid-container{
+          display: block;
+        }  
+      }
   

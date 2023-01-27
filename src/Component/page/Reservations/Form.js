@@ -47,7 +47,7 @@ const Form = () => {
     <label className='d-block'>Comments/requests</label>
     <textarea className='form-input' rows={5}></textarea>
     <input type="checkbox" id="checkBox" name="checkBox" value="Box"/>
-  <label for="checkBox"> By requesting this booking, I am accepting Tiny Leaf’s Terms and Conditions.</label>
+  <label for="checkBox text-dark"> By requesting this booking, I am accepting Tiny Leaf’s Terms and Conditions.</label>
       </div>
       {/* Reserve Button */}
       <div className='d-flex justify-content-center'>

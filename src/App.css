@@ -104,6 +104,9 @@ p{
 .text-sage {
 color: var(--sage);
 }
+.text-dark{
+  color: var(--almostBlack);
+}
 
 
 /* ---------------Borders -------*/
@@ -174,8 +177,8 @@ color: var(--sage);
   margin-bottom:  4rem;
 }
 .button{
-  margin-left: 15rem;
-  margin-right: 15rem;
+ margin-left: 50%;
+ margin-right: 50%;
   padding: 0.8rem;
   font: size 1rem ;
   font-family: 'Cormorant', serif;

@@ -27,7 +27,7 @@
     
     .tea-cup-container-content {
       position: absolute;
-      top:70%;
+      top:60%;
       left:50%;
       transform: translate(-50%, -50%);
       color: var(--white);
@@ -45,6 +45,12 @@
       font-size: 28px;
       text-align: center;
       font-family:Roboto ;
+    }
+    .reservations-button{
+      width: 250px;
+      height: 60px;
+      margin-top: 2rem;
+     
     }
     
     
@@ -64,20 +70,29 @@ font-size: 6rem;
      }
      .tea-cup-container-content{
       top: 50%;
-      padding: 5rem;
+      padding: 2rem;
      }
      .tea-cup-container-content h1{
-      font-size: 5rem;
+   
+      font-size: 3rem;
+      text-align: center;
+      margin-bottom: 1rem;
      }
      .tea-cup-container-content p{
-      font-size: 1.8rem;
+      font-size: 1rem;
       justify-content: center;
       margin-bottom: 2rem;
-     }
-     .tea-cup-container-content button{
-      width:170px;
-      margin-top: 1rem;
-     }
-
-
     }
+    .reservations-button{
+      width: 200px;
+      height: 50px;
+     
+    }
+  }
+     /* Media Queries for mobile  */
+  @media only screen and (max-width: 768px) {
+    .Hero-reservations-container{
+      background-position: 40% 0% ;
+      height: 60vh;
+    } 
+  }
