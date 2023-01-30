@@ -55,7 +55,7 @@
 
 
 /* Media Queries for Ipad/ Tablet */
-@media(min-width: 768px) and (max-width: 992px){
+@media(min-width:481px) and (max-width:768px){
 .logo-container h4{
   font-family: 'Cormorant', serif;
   font-size: 1rem;
@@ -69,7 +69,6 @@ margin-left: 4rem;
  justify-content: space-between;
 font-style: italic;
 align-items: center;
-padding: 2rem;
  } 
  .navbar-heading-container h4{
 font-size: 2rem;
@@ -77,6 +76,10 @@ margin-top: 0;
  }
  .hamburger-menu {
   display: block;
+  margin-right: 1rem;
+  padding-bottom: 1rem;
+ 
+ 
 }
 .list-items {
   display: none;
@@ -105,7 +108,7 @@ left: 0;
  } 
 
 /* Media Queries for mobile  */
-@media only screen and (max-width: 768px) {
+@media (min-width:320px) and (max-width: 480px) {
   h1 {
   font-size: 54px;
 }
@@ -132,7 +135,7 @@ h6 {
 }
 
 .logo-container h4 {
-  font-size: 20px;
+  font-size: 0.9rem;
 }
 
 .list-items {
@@ -141,6 +144,10 @@ h6 {
 .hamburger-menu {
   display: block;
 } 
+.navbar-image-container img{
+width: 50%;
+margin-top: 0.5rem;
+}
 
 .logo-container{
   align-items: center;
@@ -155,6 +162,8 @@ h6 {
   display: block;
   text-align: center;
   margin: 1rem 0;
+  margin-top: 3rem;
+  font-size: 1rem;
 }
 
 .show-items {
@@ -163,7 +172,7 @@ position: absolute;
 background-color: var(--sage);
 z-index: 15;
 width: 100%;
-height: 91vh;
+height: 90vh;
 left: 0;
 }
 }

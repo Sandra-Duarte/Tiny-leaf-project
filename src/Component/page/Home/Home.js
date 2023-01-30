@@ -2,15 +2,16 @@ import React from 'react'
 import Aniketh from "../../../images/Aniketh.png"
 import Klara from "../../../images/Klara.png"
 import Debby from "../../../images/Debby.png"
-import Tea from "../../../images/Tea.png"
+
 import Bar from "../../../images/Bar.png"
-import Noah from "../../../images/Noah.png"
-import Millan from "../../../images/Millas.png"
+
 import "./Home.css"
+import Slider from './Slider/Slider'
 
 const Home = () => {
   return (
     <div>
+      
       <div className='hero-img-container'>
     {/* <img className='hero-img' src={Hero} /> */}
     <h1>A flavour for all seasons</h1>
@@ -68,18 +69,10 @@ const Home = () => {
         
        
       </div>
-      <div className='portfolio' >
-      <h4 >Gallery</h4>
-     <div 
-     className='portfolio-container'> 
-     
-      <img src={Tea}/>
-      <img src={Bar}/>
-      <img src={Noah}/>
-      <img src={Millan}/>
-      
+       <div className='portfolio' >
+      <h2>Gallery</h2> 
       </div> 
-      </div>
+      <Slider/>
 
     </div>
   )

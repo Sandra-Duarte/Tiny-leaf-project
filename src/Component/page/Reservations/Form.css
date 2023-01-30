@@ -41,19 +41,16 @@
  .logo-form{
   margin-left: 5rem;
  }
- @media(min-width: 768px) and (max-width: 992px){
+ /* Media Queries for Ipad/ Tablet */
+ @media(min-width:481px) and (max-width:768px){
   .Form-grid-container{
     display: grid;
     grid-template-columns: 100px 500px 100px;
    grid-template-rows: 150px 600px 200px;
-  
-
   }
   .logo-form{
     display: grid;
     grid-template-rows: 1/2;
-
-  
   }
   .reservation-form-container{
     display: grid;
@@ -67,9 +64,12 @@
   }
  }
       /* Media Queries for mobile  */
-      @media only screen and (max-width: 768px) {
+      @media (min-width:320px) and (max-width: 480px) {
         .Form-grid-container{
           display: block;
         }  
+        .logo-form img{
+          margin-left: 0rem;
+        }
       }
   
