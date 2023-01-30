@@ -1,0 +1,75 @@
+/* -----------Forms---------- */
+.Form-grid-container{
+ display: grid;
+ grid-template-columns: 1fr 5fr 2fr ;
+ grid-template-rows:100px 200px 200px 200px ;
+  }
+  
+.form-input {
+    padding: 6px 12px;
+    width: 100%;
+    margin-top: 6px;
+  }
+  
+/* --------Reservation Page Form Styling -----*/
+.reservation-form-container {
+   padding-top: 4rem;
+   max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2/4;
+    grid-template-rows: 2/4;
+  }
+  
+  .reserve-btn {
+    padding: 1rem 3rem;
+  }
+  .reservation-form-container h1{
+    font-family: 'Cormorant', serif;
+    font-size: 3rem;
+    margin-bottom:1rem;
+  }
+  .reservation-form-container p{
+    font-family:Roboto;
+    font-size: 1.2rem; 
+  }
+
+ .Form-logo {
+ justify-content: right;
+ margin-top: 200px;
+ } 
+ .logo-form{
+  margin-left: 5rem;
+ }
+ /* Media Queries for Ipad/ Tablet */
+ @media(min-width:481px) and (max-width:768px){
+  .Form-grid-container{
+    display: grid;
+    grid-template-columns: 100px 500px 100px;
+   grid-template-rows: 150px 600px 200px;
+  }
+  .logo-form{
+    display: grid;
+    grid-template-rows: 1/2;
+  }
+  .reservation-form-container{
+    display: grid;
+    grid-template-rows: 2/3;
+    margin-top: 50px;
+  }
+  .Form-logo{
+    margin-left: 100px;
+    display: grid;
+    margin-top: 700px;
+  }
+ }
+      /* Media Queries for mobile  */
+      @media (min-width:320px) and (max-width: 480px) {
+        .Form-grid-container{
+          display: block;
+        }  
+        .logo-form img{
+          margin-left: 0rem;
+        }
+      }
+  

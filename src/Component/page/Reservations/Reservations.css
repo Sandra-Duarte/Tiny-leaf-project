@@ -1,0 +1,97 @@
+/*-------------- reservations-----------*/
+.Hero-reservations-container{
+    background-image: url("../../../images/Alice.png");
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    position: relative; 
+    }
+    .Hero-reservations-container h1{
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%, -50%);
+      color: var(--white);
+      z-index: 10;  
+      font-family:Cormorant;
+      font-size: 5rem;
+    }
+    
+    .Tea-cup-container{
+      background-image: url("../../../images/block.png");
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    position: relative; 
+    }
+    
+    .tea-cup-container-content {
+      position: absolute;
+      top:60%;
+      left:50%;
+      transform: translate(-50%, -50%);
+      color: var(--white);
+      z-index: 10; 
+     
+    }
+    .tea-cup-container-content h1{
+      color: var(--white);
+      font-size: 88px; 
+      text-align: center;
+      font-family:Cormorant;
+    }
+    .tea-cup-container-content p {
+      color: var(--white);
+      font-size: 28px;
+      text-align: center;
+      font-family:Roboto ;
+    }
+    .reservations-button{
+      width: 250px;
+      height: 60px;
+      margin-top: 2rem;
+     
+    }
+    /* Media Queries for Ipad/ Tablet */
+    @media(min-width:481px) and (max-width:768px){
+     .Hero-reservations-container {
+      background-position: center;
+      height: 40vh;
+     }
+
+    .Hero-reservations-container h1{
+font-size: 6rem;
+     }
+     .Tea-cup-container{
+      background-position: center;
+      height: 50vh;
+     
+     }
+     .tea-cup-container-content{
+      top: 50%;
+      padding: 2rem;
+     }
+     .tea-cup-container-content h1{
+   
+      font-size: 3rem;
+      text-align: center;
+      margin-bottom: 1rem;
+     }
+     .tea-cup-container-content p{
+      font-size: 1rem;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+    .reservations-button{
+      width: 200px;
+      height: 50px;
+     
+    }
+  }
+     /* Media Queries for mobile  */
+     @media (min-width:320px) and (max-width: 480px) {
+    .Hero-reservations-container{
+      background-position: 43% 0% ;
+      height: 90vh;
+    } 
+  }
