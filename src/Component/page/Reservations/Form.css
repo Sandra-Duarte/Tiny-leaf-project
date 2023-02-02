@@ -71,5 +71,27 @@
         .logo-form img{
           margin-left: 0rem;
         }
+        .reservation-form-container{
+          padding-top: 0;
+
+        }
+       .reservation-form-container h1 {
+        font-size: 2rem;
+       }
+       .reservation-form-container p{
+        font-size: 0.9rem;
+       }
+       .three-col-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+       }
+       .two-col-grid{
+        display: block;
+       }
+       .Form-logo{
+        display: none;
+       }
+      
       }
   
