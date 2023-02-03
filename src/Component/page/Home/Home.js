@@ -3,7 +3,6 @@ import Aniketh from "../../../images/Aniketh.png"
 import Klara from "../../../images/Klara.png"
 import Debby from "../../../images/Debby.png"
 
-import Bar from "../../../images/Bar.png"
 
 import "./Home.css"
 import Slider from './Slider/Slider'
@@ -23,7 +22,7 @@ const Home = () => {
           <h2 >Our Blends</h2>
           <p className='mr-2 blends-description'>We make our very own Tiny Leaf Blends right here in the tea house, offering new flavours according to and make sure the hands that laboured for our flavoursome cups werw rewarded fairly.</p> </div>
           <div className='section-column2'>
-          <img src={Aniketh}/>
+          <img src={Aniketh} alt= "aniketh "/>
         </div>
         
         <div>
@@ -41,14 +40,14 @@ const Home = () => {
         <section className='grid-container '>
           <div className='wise-leaf-right-section'></div>
           <div className='container-klara'>
-            <img src={Klara} className="wise-left-img"/>
+            <img src={Klara} className="wise-left-img" alt= "tea-leaft"/>
         </div>
           <div className='text-box'>
           <h2> Wise Leaf evenings</h2>
           <p>Bringing together those with curious minds, speakers and observers alike, our Wise Leaf events are a melting pot to share, reflect and contemplate.</p>
           </div>
           <div className='container-debby'>
-            <img src={Debby} className="debby-img"/>
+            <img src={Debby} className="debby-img"alt= "debby"/>
           </div>
  
          

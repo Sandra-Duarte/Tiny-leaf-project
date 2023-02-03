@@ -30,6 +30,7 @@
   color:var(--white);
   margin: 0 8px;
   text-decoration: none;
+  font-size: 2rem;
 }
 
 .hero-img {
@@ -38,12 +39,12 @@
 }
 
  .logo-container h4{
-
   color: var(--white);
   align-items: center;
   margin-top: 3rem;
   margin: 1rem;
   font-family: 'Cormorant', serif;
+  font-size: 2rem;
   
  } 
  .logo-container{
