@@ -14,7 +14,7 @@ const Navbar = () => {
   <div className='logo-container d-flex'>
     <div className='d-flex'>
     <div className="navbar-image-container">
-    <img src={logo} alt= "logo"/></div>
+    <img src={logo} alt= "logo leaf"/></div>
     <div className='navbar-heading-container'>
    <h4>Tiny Leaf Tea house</h4>
    </div>

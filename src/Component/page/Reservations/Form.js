@@ -8,7 +8,7 @@ const Form = () => {
   return (
     <div className='Form-grid-container'>
       <div className='logo-form'>
-       <img src={Formp} alt= "logo"/>
+       <img src={Formp} alt= "logoformp"/>
       </div>
     <div className='reservation-form-container'>
       <div className='mb-1'>
@@ -60,7 +60,7 @@ const Form = () => {
  
     </div>
     <div className='Form-logo'>
-<img src={Formpp} alt= "logo"/>
+<img src={Formpp} alt= "logoformpp"/>
       </div>
     
     </div>

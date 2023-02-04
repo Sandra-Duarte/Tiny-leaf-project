@@ -2,8 +2,6 @@ import React from 'react'
 import Aniketh from "../../../images/Aniketh.png"
 import Klara from "../../../images/Klara.png"
 import Debby from "../../../images/Debby.png"
-
-
 import "./Home.css"
 import Slider from './Slider/Slider'
 
@@ -22,7 +20,7 @@ const Home = () => {
           <h2 >Our Blends</h2>
           <p className='mr-2 blends-description'>We make our very own Tiny Leaf Blends right here in the tea house, offering new flavours according to and make sure the hands that laboured for our flavoursome cups werw rewarded fairly.</p> </div>
           <div className='section-column2'>
-          <img src={Aniketh} alt= "aniketh "/>
+          <img src={Aniketh} alt= "aniketh"/>
         </div>
         
         <div>
