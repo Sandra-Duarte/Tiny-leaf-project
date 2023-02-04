@@ -57,6 +57,7 @@
   grid-template-rows: 2/3;
   height: 3px;
   width: 25%; /* border width */
+  margin-top: 8rem;
 }
 
 
@@ -127,7 +128,7 @@ grid-template-rows: 3/4;
   grid-row: 2 / 3;
 }
 .text-box h2{
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
   font-family:Cormorant;
   padding: 2rem;

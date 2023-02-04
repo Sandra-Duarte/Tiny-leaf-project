@@ -14,14 +14,14 @@ const Navbar = () => {
   <div className='logo-container d-flex'>
     <div className='d-flex'>
     <div className="navbar-image-container">
-    <img src={logo}/></div>
+    <img src={logo} alt= "logo leaf"/></div>
     <div className='navbar-heading-container'>
    <h4>Tiny Leaf Tea house</h4>
    </div>
    </div>
    <div className='hamburger-menu' onClick={() => setIsOpen(!isOpen)}>
     {
-      isOpen ? (<img src={Close} />) :  (<img src={Menu} />)
+      isOpen ? (<img src={Close} alt= "close-tag"/>) :  (<img src={Menu}  alt= "meno-tag"/>)
     }
     
    </div>

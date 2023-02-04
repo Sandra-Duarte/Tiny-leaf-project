@@ -10,31 +10,31 @@ const Footer = () => {
     <div className="footer_container">
         <div className="container_section_1">
             < div className='footer-logo-container'>
-            <img src={Logofooter}/>
+            <img src={Logofooter} alt= "logo footer"/>
             
         </div>
         <div className='inner_container_section_1'>
         <div className='footer-div'>
-            <h3>Opening hours</h3>
+            <h1>Opening hours</h1>
             <p>Mon - Sat 11am - 12pm</p>
             <p>Sun 11am - 11pm</p>
         </div>
         <div>
-            <h3>Address</h3>
+            <h1>Address</h1>
             <p>24 Brew Lane</p>
             <p>BR3 WL Cuptown</p>
         </div>
         <div>
-            <h3>Contact</h3>
+            <h1>Contact</h1>
             <p>+44 201 998 7562</p>
             <p>hello@yellowmountain.com</p>
-             <div className='mt-2-5 text-center'><img src='/Social.png'/></div>
+             <div className='social-midia mt-2-5 text-center'><img src='/Social.png' alt= "fecebook-intagran"/></div>
         </div>
         </div>
         </div>
         
         <div className='footer-text mt-1'>
-          <span className='text-white'>&#169; 2025</span>
+          <span className=' footer-date text-white'>&#169; 2025</span>
             </div>
     </div>
   )
