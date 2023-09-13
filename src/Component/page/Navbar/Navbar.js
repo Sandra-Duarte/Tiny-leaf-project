@@ -8,7 +8,7 @@ import Close from "../../../images/Close.png"
 
 const Navbar = () => {
 
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
   return (
 <nav className="navbar">
   <div className='logo-container d-flex'>
@@ -23,7 +23,7 @@ const Navbar = () => {
     {
       isOpen ? (<img src={Close} alt= "close-tag"/>) :  (<img src={Menu}  alt= "meno-tag"/>)
     }
-    
+
    </div>
   </div>
 <div className={`list-items ${isOpen ? "show-items": ""} `}>
